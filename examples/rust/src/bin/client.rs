@@ -90,11 +90,11 @@ struct Args {
     #[clap(long)]
     buffer_size: Option<usize>,
 
-    /// Sets whether to use an adaptive flow control. Uses hyper’s default otherwise.
+    /// Sets whether to use an adaptive flow control. Uses hyper's default otherwise.
     #[clap(long)]
     http2_adaptive_window: Option<bool>,
 
-    /// Set http2 KEEP_ALIVE_TIMEOUT. Uses hyper’s default otherwise.
+    /// Set http2 KEEP_ALIVE_TIMEOUT. Uses hyper's default otherwise.
     #[clap(long)]
     http2_keep_alive_interval_ms: Option<u64>,
 
@@ -106,11 +106,11 @@ struct Args {
     #[clap(long)]
     initial_stream_window_size: Option<u32>,
 
-    ///Set http2 KEEP_ALIVE_TIMEOUT. Uses hyper’s default otherwise.
+    ///Set http2 KEEP_ALIVE_TIMEOUT. Uses hyper's default otherwise.
     #[clap(long)]
     keep_alive_timeout_ms: Option<u64>,
 
-    /// Set http2 KEEP_ALIVE_WHILE_IDLE. Uses hyper’s default otherwise.
+    /// Set http2 KEEP_ALIVE_WHILE_IDLE. Uses hyper's default otherwise.
     #[clap(long)]
     keep_alive_while_idle: Option<bool>,
 
